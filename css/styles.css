@@ -1805,3 +1805,6 @@ textarea {
     background-color: white;
   }
   
+  .navbar-brand {
+    font-size: 12px;
+  }
