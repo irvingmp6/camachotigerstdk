@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Schedule & Location - Master Camacho Tigers Institute</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+  <title>Master Camacho Tae Kwon Do</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="js/scipts.js"></script>
 </head>
-<body>
-<!-- Flex container -->
-<div class="d-flex flex-column min-vh-100">
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">Master Camacho Tigers Institute</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="schedule.html">Schedule & Location</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="pricing.html">Pricing</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="btn btn-secondary btn-sm" href="es/index.html">ES</a>
-            </li>
-        </ul>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Master Camacho Tae Kwon Do</a>
     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="index.html">RATINGS</a></li>
+        <li><a href="index.html">PRICING</a></li>
+        <li><a href="index.html">CONTACT</a></li>
+        <li><a href="es/schedule.html">ESPAÑOL</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="about.html">About</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
 
     <!-- Main Content -->
     <div class="container">
         <!-- SPECIAL SCHEDULING ALERTS -->
-        <h4 class="weather-update">⚡🌩️ ATTENTION 🌩️⚡</h4>
-        <p class="weather-update">Due to the inclement weather, we will be closed<br/>today, Tuesday, 1/21/2020.</p>
-        <style>
-          .weather-update {
-            font-weight: bold;
-          }
-        </style>
+        <!-- <h3 class="weather-update text-center">🌩️WEATHER UPDATE🌩️ </h3>
+        <p class="weather-update text-center">Due to the inclement weather, we will be closed today, Tuesday, 5/22/2024.</p> -->
         <h1>Schedule</h1>
+        <p>We're open five days a week, offering classes for everyone from beginners to advanced practitioners. Each session lasts just one hour, making it easy to fit into your schedule. No matter your level or your goals, come join us and kick it into high gear with !</p>
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -88,23 +88,14 @@
             </tbody>
         </table>
 
-        <h1>Location</h1>
-        <p>Our dojo is located at 123 Taekwondo Street, Martial Arts City, MA 12345.</p>
-        <!-- Google Maps section -->
-        <iframe id="location" align="middle"; width="600" height="450" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJNxskoQqDToYR_THUd3ETgG0&key=AIzaSyC6OqSiN5BJ-pUnb-3rP7cC-M-nBf-o22w" allowfullscreen></iframe>
-
     </div>
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>© 2024 Master Camacho Tigers Institute. All Rights Reserved.</p> 
+</footer>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Master Camacho Tigers Institute. All Rights Reserved.</p>
-        </div>
-    </footer>
-</div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
 </body>
 </html>

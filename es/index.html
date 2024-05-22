@@ -1,103 +1,261 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Master Camacho Tigers Institute</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/styles.css">
+  <title>Master Camacho Tae Kwon Do</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="../js/scipts.js"></script>
 </head>
-<body>
-<!-- Flex container -->
-<div class="d-flex flex-column min-vh-100 home-body">
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Master Camacho Tigers Institute</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active" id="home-link">
-                    <a class="nav-link" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">Acerca de</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="schedule.html">Horario y Ubicación</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pricing.html">Precios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contacto</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-secondary btn-sm" href="../index.html">EN</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <!-- Video Banner -->
-    <div class="video-banner">
-        <video autoplay muted loop>
-            <source src="../assets/videos/tkd_fight.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-        </video>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Master Camacho Tae Kwon Do</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">INICIO</a></li>
+        <li><a href="#testimonials">CALIFICACIONES</a></li>
+        <li><a href="#pricing">PRECIOS</a></li>
+        <li><a href="#contact">CONTACTO</a></li>
+        <li><a href="../index.html">ENGLISH</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MÁS
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="about.html">ACERCA DE</a></li>
+            <li><a href="schedule.html">HORARIO</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="video-banner">
+            <video autoplay muted loop>
+                <source src="../assets/videos/tkd_fight.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
     </div>
 
-    <!-- Main Content -->
-    <div class="homepage-section benefits-section">
+
+<!-- Container (The testimonials Section) -->
+<div id="testimonials" class="container text-center">
+  <h4 class="star-count">
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    <span class="glyphicon glyphicon-star"></span>
+    </h4>
+    <h3>5/5 CALIFICACIONES
+    </h3>
+  <p><em>"¡La mejor escuela de artes marciales de la ciudad!"</em></p>
+  <p>El Maestro Camacho es un instructor de Tae Kwon Do con mucha experiencia y más de 20 años en el arte marcial. Tiene un cinturón negro de quinto grado y ha entrenado a cientos de estudiantes, ayudándolos a alcanzar sus metas personales y profesionales a través del Tae Kwon Do.</p><br>
+  <div class="row">
+    <div class="col-sm-4">
+          <strong>5/5 estrellas! 
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+        </strong></p>
+        <p class="text-center"><em>"El Maestro Camacho es un increíble instructor de combate... gracias a su entrenamiento, siempre estoy listo para defenderme por si se llega a eso."</em></p>
+        <p class="text-center">Irving Martinez</p><br>
+    </div>
+    <div class="col-sm-4">
+          <strong>5/5 estrellas! 
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+        </strong></p>
+        <p class="text-center"><em>"¡100% recomendado! Mi hija Fátima aprendió mucho, ¡gracias Maestro Camacho!"</em></p>
+        <p class="text-center">Jehovany Amaya</p><br>
+    </div>
+    <div class="col-sm-4">
+          <strong>5/5 estrellas! 
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+        </strong></p>
+        <p class="text-center"><em>"El Maestro Camacho es excelente con los niños... Nuestro hijo Max es autista, y el maestro lo guió con mucha paciencia. ¡Lo recomendamos ampliamente!"</em></p>
+        <p class="text-center">Dr. Gregory Hamilton</p><br>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+        <p class="text-center">
+          <strong>5/5 stars! 
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+        </strong></p>
+        <p class="text-center"><em>"Este lugar es increíble. Una escuela buenísma porque me ayudaron a aprender artes marciales, nuevas técnicas y cómo protegerme en cualquier situación. ¡Imprecionante!"</em></p>
+        <p class="text-center">Jeremy Torres</p><br>
+    </div>
+    <div class="col-sm-4">
+        <p class="text-center">
+          <strong>5/5 stars! 
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+        </strong></p>
+        <p class="text-center"><em>"El Maestro Camacho es muy atento y servicial con los niños. Nos encanta traer a mijo aquí. Recomendamos mucho esta escuela."</em></p>
+        <p class="text-center">Carlos Prudencio</p><br>
+    </div>
+    <div class="col-sm-4">
+        <p class="text-center">
+          <strong>5/5 stars! 
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+        </strong></p>
+        <p class="text-center"><em>"¡Gran instructor! Me encanta cómo el Maestro Camacho explica todo detalladamente. ¡Gran ambiente!"</em></p>
+        <p class="text-center">Nick Figueroa</p><br>
+    </div>
+  </div>
+</div>
+
+<!-- Container (pricing Section) -->
+<div id="pricing" class="bg-1">
+    <div class="container mt-4">
         <div class="row">
             <div class="col-12 text-center">
-                <h1>Master Camacho Tigers Institute</h1>
-                <h3><em>Desarrolla la FUERZA. Desarrolla las GARRAS.</em></h3>
-                <p>Prueba GRATIS por una semana. Sin compromisos.</p>
+                <h1>Precios</h1>
+                <p>Elige el mejor plan de Tae Kwon Do para ti. ¡La primera semana es GRATIS!<br>
+                  Sin contrato. Cancela cuando quieras.</p>
             </div>
         </div>
-    </div>
-
-    <!-- Sección de Testimonios -->
-<div class="testimonials-section">
-    <div class="container">
-        <h2 class="text-center">Testimonios</h2>
         <div class="row">
-            <div class="col-md-4 testimonial">
-                <img src="../assets/images/kids.jpg" alt="Niños entrenando">
-                <p class="text-center mt-2">"El Maestro Camacho es excelente con los niños. Tiene la combinación adecuada de comprensión y disciplina. Nuestro hijo Max obtuvo su cinturón naranja esta semana. Max es autista, y el Maestro Camacho lo guió con paciencia. ¡Altamente recomendado!"</p>
-                <p>- Dr. Gregory Hamilton</p>
-                <p class="text-center">5/5 estrellas! ⭐⭐⭐⭐⭐</p>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body text-center pricing">
+                        <h3>Paquete para Niños</h3>
+                        <p class="list-group-item">$120 / mes</p>
+                        <ul class="list-group">
+                            <li class="list-group-item">Uniforme GRATIS</li>
+                            <li class="list-group-item">3 clases x semana</li>
+                            <li class="list-group-item">Acceso a equipo de entrenamiento premium de Tae Kwondo</li>
+                            <li class="list-group-item">Acceso a exámenes de cinturón y eventos especiales</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary">¡Inscribite hoy!</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 testimonial">
-                <img src="../assets/images/kids.jpg" alt="Niños entrenando">
-                <p class="text-center mt-2">"Este lugar es simplemente algo más. Son súper buenos, me ayudaron a aprender artes marciales, nuevas técnicas y cómo protegerme en cualquier situación. ¡Son geniales!"</p>
-                <p>- Jeremy Torres</p>
-                <p class="text-center">5/5 stars! ⭐⭐⭐⭐⭐</p>
-            </div>
-            <div class="col-md-4 testimonial">
-                <img src="../assets/images/kids.jpg" alt="Niños entrenando">
-                <p class="text-center mt-2">"El Maestro Camacho es atento y servicial con los niños. Disfrutamos de tener a nuestro hijo aquí. Altamente recomendado."</p>
-                <p>- Carlos Prudencio</p>
-                <p class="text-center">5/5 stars! ⭐⭐⭐⭐⭐</p>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body text-center pricing">
+                        <h3>Paquete para Adultos</h3>
+                        <p class="list-group-item">$130 / mes</p>
+                        <ul class="list-group">
+                          <li class="list-group-item">Uniforme GRATIS</li>
+                          <li class="list-group-item">3 clases x semana</li>
+                          <li class="list-group-item">Acceso a equipo de entrenamiento premium de Tae Kwondo</li>
+                          <li class="list-group-item">Acceso a exámenes de cinturón y eventos especiales</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary">¡Inscribite hoy!</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white mt-4">
-        <div class="container text-center py-3">
-            <p>&copy; 2024 Master Camacho Tigers Institute. Todos los derechos reservados.</p>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
         </div>
-    </footer>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
+              <input type="number" class="form-control" id="psw" placeholder="How many?">
+            </div>
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+              <button type="submit" class="btn btn-block">Pay 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+          </button>
+          <p>Need <a href="#">help?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="../js/scripts.js"></script>
+<!-- Container (Contact Section) -->
+<div id="contact" class="container">
+  <h3 class="text-center">UBICACIÓN</h3>
+  <p class="text-center"><em>We love our fans!</em></p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <p>¿Preguntas? Visítanos o llàmanos hoy.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> 1515 W Irving Blvd, Irving, TX 75061</a></p>
+      <p><span class="glyphicon glyphicon-phone"></span> Phone: <a href="tel:+2144060615">(214) 406-0615</a></p>
+      <p><span class="glyphicon glyphicon-envelope"></span> Email: <a mailto="mastercamachotigers@gmail.com">mastercamachotigers@gmail.com</a></p>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <iframe id="location" align="middle"; width="600" height="450" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJNxskoQqDToYR_THUd3ETgG0&key=AIzaSyC6OqSiN5BJ-pUnb-3rP7cC-M-nBf-o22w" allowfullscreen></iframe>
+    </div>
+    </div>
+  </div>
+  <br>
+
+</div>
+
+<!-- Image of location/map -->
+<img src="map.jpg" class="img-responsive" style="width:100%">
+
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>© 2024 Master Camacho Tigers Institute. All Rights Reserved.</p> 
+</footer>
+
 </body>
 </html>
